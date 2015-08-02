@@ -25,7 +25,7 @@
     "email": "sean@simpla.io",
     "url": "https://twitter.com/simplaio"
   },
-  "repository": "seaneking/gulp-rucksack",
+  "repository": "simplaio/gulp-rucksack",
   "dependencies": {
     "gulp-util": "~3.0.6",
     "object-assign": "~3.0.0",

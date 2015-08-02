@@ -53,10 +53,10 @@ MIT © [Sean King](https://twitter.com/seaneking)
 
 [npm-image]: https://badge.fury.io/js/gulp-rucksack.svg
 [npm-url]: https://npmjs.org/package/gulp-rucksack
-[travis-image]: https://travis-ci.org/seaneking/gulp-rucksack.svg?branch=master
-[travis-url]: https://travis-ci.org/seaneking/gulp-rucksack
-[daviddm-image]: https://david-dm.org/seaneking/gulp-rucksack.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/seaneking/gulp-rucksack
+[travis-image]: https://travis-ci.org/simplaio/gulp-rucksack.svg?branch=master
+[travis-url]: https://travis-ci.org/simplaio/gulp-rucksack
+[daviddm-image]: https://david-dm.org/simplaio/gulp-rucksack.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/simplaio/gulp-rucksack
 [rucksack]: https://github.com/simplaio/rucksack
 [gulp]:    https://github.com/gulpjs/gulp
 [gulp-sourcemaps]: https://www.npmjs.com/package/gulp-sourcemaps

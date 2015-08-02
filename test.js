@@ -23,9 +23,7 @@ function fixture (contents) {
 test('Process CSS with Rucksack', function(t) {
     t.plan(1);
 
-    var stream = rucksack({
-      normalize: false
-    });
+    var stream = rucksack();
 
     stream.on('data', function (data) {
         t.equal(String(data.contents), expected);
@@ -42,9 +40,7 @@ test('Process CSS with sourcemaps', function (t) {
     var init = sourcemaps.init();
     var write = sourcemaps.write();
 
-    init.pipe(rucksack({
-      normalize: false
-    }))
+    init.pipe(rucksack())
     .pipe(write);
 
     write.on('data', function (data) {
