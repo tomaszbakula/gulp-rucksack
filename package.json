@@ -1,0 +1,35 @@
+{
+  "name": "gulp-rucksack",
+  "version": "0.1.0",
+  "description": "Gulp plugin for Rucksack - a little bag of CSS superpowers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | tap-spec"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "gulpplugin",
+    "rucksack",
+    "postcss"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-sourcemaps": "~1.5.2",
+    "tap-spec": "~4.0.2",
+    "tape": "~4.0.0"
+  },
+  "homepage": "https://github.com/simplaio/rucksack",
+  "author": {
+    "name": "Sean King",
+    "email": "sean@simpla.io",
+    "url": "https://twitter.com/simplaio"
+  },
+  "repository": "seaneking/gulp-rucksack",
+  "dependencies": {
+    "gulp-util": "~3.0.6",
+    "object-assign": "~3.0.0",
+    "rucksack-css": "^0.4.0",
+    "vinyl-sourcemaps-apply": "~0.1.4"
+  }
+}
