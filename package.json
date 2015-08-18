@@ -1,6 +1,6 @@
 {
   "name": "gulp-rucksack",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Gulp plugin for Rucksack - a little bag of CSS superpowers.",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
   "dependencies": {
     "gulp-util": "~3.0.6",
     "object-assign": "~3.0.0",
-    "rucksack-css": "^0.4.0",
+    "rucksack-css": "latest",
     "vinyl-sourcemaps-apply": "~0.1.4"
   }
 }
