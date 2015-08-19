@@ -7,7 +7,7 @@ var test = require('tape'),
     path = require('path'),
     sourcemaps = require('gulp-sourcemaps');
 
-var css = 'a{ absolute: 0; }',
+var css = 'a{ position: absolute 0; }',
     expected = 'a{ position: absolute; top: 0; right: 0; bottom: 0; left: 0; }',
     sourceMapRegex = /sourceMappingURL=data:application\/json;base64/;
 
@@ -46,7 +46,7 @@ test('Process CSS with sourcemaps', function (t) {
     write.on('data', function (data) {
         var contents = String(data.contents);
         var mappings = data.sourceMap.mappings;
-        t.equal(mappings, 'AAAA,GAAG,mBAAY,CAAZ,OAAY,CAAZ,SAAY,CAAZ,UAAY,CAAZ,QAAY,EAAE', 'should generate the mappings');
+        t.equal(mappings, 'AAAA,GAAG,mBAAqB,CAArB,OAAqB,CAArB,SAAqB,CAArB,UAAqB,CAArB,QAAqB,EAAE', 'should generate the mappings');
         t.ok(sourceMapRegex.test(contents), 'should have the map applied');
     });
 
