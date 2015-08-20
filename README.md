@@ -3,6 +3,8 @@
 
 Gulp plugin for [Rucksack][rucksack] - a little bag of CSS superpowers.
 
+Inspired by [gulp-cssnano][cssnano].
+
 ### Install
 
 Install via [npm][npm-url]
@@ -45,12 +47,6 @@ gulp.task('rucksack', function() {
 });
 ```
 
---
-
-### License
-
-MIT © [Sean King](https://twitter.com/seaneking)
-
 [npm-image]: https://badge.fury.io/js/gulp-rucksack.svg
 [npm-url]: https://npmjs.org/package/gulp-rucksack
 [travis-image]: https://travis-ci.org/simplaio/gulp-rucksack.svg?branch=master
@@ -60,3 +56,4 @@ MIT © [Sean King](https://twitter.com/seaneking)
 [rucksack]: https://github.com/simplaio/rucksack
 [gulp]:    https://github.com/gulpjs/gulp
 [gulp-sourcemaps]: https://www.npmjs.com/package/gulp-sourcemaps
+[cssnano]: https://github.com/ben-eb/gulp-cssnano
