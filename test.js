@@ -9,7 +9,7 @@ var test = require('tape'),
 
 var css = 'a{ position: absolute 0; }',
     expected = 'a{ position: absolute; top: 0; right: 0; bottom: 0; left: 0; }',
-    sourceMapRegex = /sourceMappingURL=data:application\/json;base64/;
+    sourceMapRegex = /sourceMappingURL=data:application\/json;charset=utf8;base64/;
 
 function fixture (contents) {
   return new gutil.File({
