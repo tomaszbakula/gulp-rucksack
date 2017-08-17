@@ -33,10 +33,9 @@ module.exports = function(options) {
 
         if (result.map && file.sourceMap) {
           applySourceMap(file, String(result.map));
-          file.contents = new Buffer(result.css);
-        } else {
-          file.contents = new Buffer(result);
         }
+          
+        file.contents = new Buffer(result.css);
 
         this.push(file);
 
